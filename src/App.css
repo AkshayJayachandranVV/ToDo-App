@@ -1,0 +1,92 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f0f2f5;
+}
+
+.app {
+  max-width: 600px;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.mainHeading {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.subHeading {
+  text-align: center;
+  color: #6c757d;
+  margin-bottom: 20px;
+}
+
+.input {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.input input[type="text"] {
+  flex: 1;
+  padding: 10px;
+  border: 1px solid #ced4da;
+  border-radius: 5px 0 0 5px;
+  outline: none;
+}
+
+.input button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 0 5px 5px 0;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.input button:hover {
+  background-color: #0056b3;
+}
+
+.todos {
+  margin-top: 20px;
+}
+
+.todo {
+  background-color: #f8f9fa;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.todo .text {
+  flex: 1;
+  margin-left: 10px;
+  color: #343a40;
+}
+
+.todo button {
+  background-color: #dc3545;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 8px 15px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.todo button:hover {
+  background-color: #c82333;
+}
